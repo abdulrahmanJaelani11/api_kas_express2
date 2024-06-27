@@ -5,13 +5,13 @@ const cors = require("cors")
 const moment = require("moment")
 require("moment/locale/id");
 const bodyParser = require("body-parser")
-const db = myql.createConnection({
-    host: "aaj.h.filess.io",
-    user: "sicakas_mustvapor",
-    password : "820688fef06604fd1425f7227e6dce4b5fbd5257",
-    database : "sicakas_mustvapor",
-    port : "3307",
-})
+// const db = myql.createConnection({
+//     host: "aaj.h.filess.io",
+//     user: "sicakas_mustvapor",
+//     password : "820688fef06604fd1425f7227e6dce4b5fbd5257",
+//     database : "sicakas_mustvapor",
+//     port : "3307",
+// })
 const port = process.env.port || 3000
 
 app.use(cors());
